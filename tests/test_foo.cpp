@@ -10,17 +10,14 @@
 #include "../Graph.h"
 
 TEST(NAME, NAME1) {
-    // Correctly initialize x and y vectors
     std::vector<int> x = {1, 1, 2, 2, 3};
     std::vector<int> y = {6, 5, 6, 4, 5};
 
-    // Mock input for x
     std::string x_input = "data.txt";
-    // Assuming you have a way to mock input or directly use the string
 
     Graph myGraph = Graph();
 
-    Parser parser = Parser(x_input); // Use the mocked input
+    Parser parser = Parser(x_input); 
     parser.parse();
 
     myGraph.points_list = parser.points_list;

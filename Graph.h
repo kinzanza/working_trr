@@ -1,6 +1,6 @@
 #ifndef GRAPH_H
 #define GRAPH_H
-#include <ostream> // Добавлено включение для std::ostream
+#include <ostream> 
 #include <vector>
 #include <set>
 #include "Edge.h"
